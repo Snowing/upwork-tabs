@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "name": "upwork-tabs",
+  "description": "Load new upwork jobs",
+  "version": "1.0",
+  "background": {
+     "page": "background.html"
+      , "persistent": true
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "browser_action": {
+    "default_icon": "img/upwork.png"
+  },
+  "permissions": [
+    "storage" ,
+    "contextMenus",
+    "tabs",
+    "notifications",
+    "https://www.upwork.com/",
+    "https://ajax.googleapis.com/"
+  ],
+  "version": "1.0.4"
+}

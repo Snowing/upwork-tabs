@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Test Extension Options</title>
+
+<style>
+  label {
+    width:100px;
+    display:inline-block;
+  }
+  .form-field {
+    margin:10px 5px;
+  }
+</style>
+
+</head>
+<body>
+
+
+<h4> Upwork fetcher settings</h4>
+<div class="form-field">
+<label for="url1">Url to check</label>
+<input id="url1" size=100 />
+</div>
+<div class="form-field">
+<label for="period">Check Period</label>
+<input id="period" size=2 value="30"/>
+</div>
+<div class="form-field">
+<label for="open_apply">Open apply</label>
+<input id="open_apply" type="checkbox"/>
+</div>
+<div class="form-field">
+<label for="create_window">Get own window</label>
+<input id="create_window" type="checkbox"/>
+</div>
+
+
+
+<div id="status"></div>
+<button id="save">Save</button>
+
+<script src="js/options.js"></script>
+</body>
+</html>
