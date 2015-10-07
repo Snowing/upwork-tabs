@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Upwork-tabs",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "This extension open new jobs in tabs.",
+    "description":"The description of the application, displayed in the web store."
+  }
+}
