@@ -1,3 +1,5 @@
+*This extension is outdated
+
 #Upwork-tabs
 *upwork helper for someone*
 
